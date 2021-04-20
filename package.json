@@ -1,0 +1,27 @@
+{
+  "name": "image-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthur-Lozano/image-lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthur-Lozano/image-lambda/issues"
+  },
+  "homepage": "https://github.com/Arthur-Lozano/image-lambda#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.13.0",
+    "@aws-sdk/client-s3": "^3.13.0",
+    "@aws-sdk/node-http-handler": "^3.12.0",
+    "@aws-sdk/types": "^3.12.0",
+    "sharp": "^0.28.1",
+    "ts-node": "^9.1.1"
+  }
+}
