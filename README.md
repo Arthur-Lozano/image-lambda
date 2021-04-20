@@ -1,13 +1,10 @@
 # image-lambda
 
-- a description of how to use your lambda.
+- A description of how to use your lambda.
 * Upload an image and the lambda will resize it for you and place it into a new bucket.
 
 - A description of any issues you encountered during deployment of this lambda.
-- Still working out some bugs, recieved an error
-
-* In the README add a description of how to use your lambda,
-- a description of any issues you encountered during deployment of this lambda, and an image and thumbnail that your Lambda processed.
+- Still working out some bugs, recieved an error 
 
 - My issue (-zip-file fileb://function.zip --handler index.handler --runtime nodejs12.x \
 --timeout 10 --memory-size 1024 \
